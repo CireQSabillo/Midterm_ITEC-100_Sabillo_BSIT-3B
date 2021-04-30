@@ -1,0 +1,304 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: Times New Roman;
+    background: rgba(0, 0, 0, .30) url(../pics/bg.jpg);
+	background-size: cover;
+
+}
+
+
+
+
+
+nav .logo{
+  position: fixed;
+  top: 0.5%;
+  left: 3%;
+}
+nav .logo img:hover {
+	transform: scale(1.5);  transition-duration: 1s;
+}
+
+
+
+
+
+
+
+nav{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100px;
+	padding-left: 10px 90px;
+	box-sizing: border-box;
+    border: 4px solid white;
+	border-style: inset;
+	border-radius: 10px;
+	background: #0f1821;
+	color:#fff;
+}
+
+nav ul{
+	list-style: none;
+	float: left;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	margin-top:10px;
+	margin-left:140px;
+
+}
+
+nav ul li a{
+	line-height: 80px;
+	color: #fff;
+	padding: 12px 30px;
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: bold;
+	border:1px solid #fff;
+	transition: 0.6s ease;
+	border-radius: 10px;
+
+}
+
+nav ul li a:hover{
+	background-color: #fff;
+	color: #000;
+}
+
+
+
+
+
+
+nav ul li.active a{
+	background-color: #fff;
+	color: #000;
+}
+nav ul li.active a:hover{
+	background-color: black;
+	color: #fff;
+}
+
+
+
+
+
+
+
+nav .searchbar{
+	position: absolute;
+	top: 20%;
+	left: 75%;
+	background-color: white;
+	height: 40px;
+	border-radius: 40px;
+	padding: 10px;
+}
+nav .searchbar:hover > .searchtxt{
+	width: 300px;
+	padding: 0 6px;
+}
+nav .searchbar:hover > .searchbtn{
+	background-color: black;
+
+}
+
+
+
+
+nav .searchtxt{
+	border: none;
+	background: none;
+	outline: none;
+	float: left;
+	padding: 0;
+	color: black;
+	font-size: 20px;
+	transition: 0.6s ease;
+	line-height: 40px;
+	width: 312px;
+	text-align: center;
+	font-family: Times New Roman;
+
+}
+
+nav .searchbtn{
+	color: white;
+	float: right;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background-color: gray;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: 0.6s ease;
+}
+
+
+nav .samplebg{
+    position: fixed;
+    border-radius: 50%;
+    top: 14%;
+    left: 11.3%;
+  }
+
+
+
+
+
+
+
+
+
+
+
+.sidebar{
+    position: fixed;
+    border: 4px solid white;
+	border-style: inset;
+	border-radius: 10px;
+	background: #0f1821;
+	color:#fff;
+    margin-top: 28.5%;
+    margin-left: -0.3%;
+    width: 10.5%;
+    height: 300px;
+}
+.sidebar:hover {
+	background-color: #394f6B;
+	color: white;
+	border: 4px solid white;
+    transition: 1s;
+}
+
+
+
+
+
+
+.tablecategory{
+    position: fixed;
+    border: 4px solid white;
+	border-style: inset;
+	border-radius: 10px;
+	background: #0f1821;
+	color:#fff;
+	padding-bottom: 10px; padding-top: 0px; padding-right: 10px; padding-left: 10px;
+	font-size: 15px;
+    text-align: center;
+    margin-top: 6%;
+    margin-left: 0%;
+    width: 11%;
+}
+.tablecategory:hover {
+	background-color:#394f6B;
+	color: white;
+	border: 4px solid white;
+    transition: 1s;
+}
+
+
+
+
+
+
+.tablebrands{
+    position: fixed;
+    border: 4px solid white;
+	border-style: inset;
+	border-radius: 10px;
+	background: #0f1821;
+	color:#fff;
+	padding-bottom: 10px; padding-top: 0px; padding-right: 10px; padding-left: 10px;
+	font-size: 15px;
+    text-align: center;
+    margin-top: 16%;
+    margin-left: 0%;
+    width: 11%;
+}
+
+.tablebrands:hover {
+	background-color: #394f6B;
+	color: white;
+	border: 4px solid white;
+    transition: 1s;
+    
+
+}
+
+
+
+.activitylogtable{
+    position: fixed;
+    border: 10px solid white;
+	border-style: inset;
+	border-radius: 10px;
+	background:  linear-gradient(to bottom right, #000428 ,#141e30, #243b55, #004e92, #000428);  
+	color:#fff;
+	padding-bottom: 10px; padding-top: 0px; padding-right: 10px; padding-left: 10px;
+	font-size: 15px;
+    text-align: center;
+    margin-top: 6%;
+    margin-left: 11.5%;
+    width: 88%;
+}
+
+.activitylogtable:hover {
+	background: linear-gradient(to top right, #141e30   , #243b55 ); 
+	color: white;
+	border: 4px solid white;
+    transition: .3s;
+    
+
+}
+
+.logout{
+	width: 70px;
+	border: none;
+	border-radius: 5px;
+	height: 20px;
+	font-size: 10px;
+	cursor: pointer;
+	margin-top: 10px;
+	margin-bottom: -20px;
+	position: absolute; 
+	left:0.5%; 
+	top: 765%;
+    background-color: white;
+	color: #394f6B;
+	border: 1px solid 394f6B;
+    transition: 1s;
+}
+.logout:hover{
+    background: red;
+	color:white;
+}
+
+
+.settings{
+    width: 70px;
+	border: none;
+	border-radius: 5px;
+	height: 20px;
+	font-size: 10px;
+	cursor: pointer;
+	margin-top: 10px;
+	margin-bottom: -20px;
+	position: absolute; 
+	left:5.5%;
+	top: 765%;
+    background-color: white;
+	color: #394f6B;
+	border: 1px solid white;
+    transition: 1s;
+}
+.settings:hover{
+    background: yellow;
+	color:black;
+}

@@ -1,0 +1,87 @@
+body{
+
+	background: rgba(0, 0, 0, .40) url(../pics/bg3.jpg);
+    background-blend-mode: darken;
+	background-size: cover;
+	font-family: Times New Roman;
+	margin: 0;
+	padding: 0;
+}
+
+.codebox{
+	width: 320px;
+	height: 290px;
+	background: #0f1821;
+	color:#fff;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+	border-radius: 10px;
+	padding: 70px 30px;
+}
+
+h1{
+	margin: 0;
+	padding: 0 0 20px;
+	text-align: center;
+	font-size: 25px;
+}
+
+.codebox p{
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+	text-align: center;
+
+}
+
+.avatar{
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+	position: absolute;
+	top: -60px;
+	left: calc(50% - 60px);
+}	
+
+
+
+.codebox input{
+	width: 100%;
+	margin-bottom: 20px;
+	text-align: center;
+	border-radius: 10px;
+
+}
+
+
+.codebox input[type="text"]{
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: #fff;
+	font-size: 16px;
+}
+
+
+.codebox input[type="submit"]{
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: #fb2525;
+	outline: none;
+	height: 40px;
+	top: 80%;
+	color: #fff;
+	font-size: 18px;
+	position: absolute;
+	left: 27%;
+	width: 50%;
+}
+.codebox input[type="submit"]:hover {
+	background-color: #25cf59;
+	color: white;
+}
